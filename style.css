@@ -1,0 +1,99 @@
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0;
+    background-color: #F0F0F0;
+    color: #333333;
+}
+
+header {
+    background-color: #2E8B57;
+    color: white;
+    padding: 1em 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #8FBC8F;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #333333;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #2E8B57;
+}
+
+article {
+    padding: 20px;
+    background-color: #FFFFFF; 
+    margin: 20px;
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #2E8B57;
+    border-bottom: 2px solid #2E8B57; 
+    padding-bottom: 5px;
+}
+
+a {
+    color: #2E8B57;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#complementar {
+    background-color: #F0FFF0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#complementar label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#complementar textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#complementar button {
+    background-color: #2E8B57; 
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#complementar button:hover {
+    background-color: #3CB371; 
+}
+p { 
+    font-size: 1.2rem; 
+}
